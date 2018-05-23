@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PG-OPTIONS</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="options.css" />
+    <script src="options.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Stalemate" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="videoContainer">
+        <video autoplay muted loop id="myVideo">
+            <source src="./PgBackground.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="logoContainer   col-md-5  ">
+                <img src="imageedit_5_9723968476.png" alt="logo" class="logo">
+            </div>
+
+            <div class="intro col-md-6">
+                <span class="firstLetter">P</span>rocrastination
+                <span class="firstLetter">G</span>uru is here to help you out and become more productive.Block websites with one click from the extension
+                icon, Set time for how long you want to block it.User can add websites to prominent list, Which can be blocked
+                with single click.Please set password for unblocking websits. Cheers!!
+                <br> ***Disclaimer:Websites blocked with a time setting cannot be unblocked before time(This is for your help
+                only.) When you visit websites after completion of blocking time, they will be automatically removed from
+                the list.
+            </div>
+
+            <div class="passContainer  col-md-4 ">
+                <a href="pass.html" target="_blank" id="pass">Set/Change Password</a>
+            </div>
+            <div class="blockAll col-md-4">
+                <button type="button" id="blockAllButton">Block All</button>
+            </div>
+            <div class="help col-md-4">
+                <a href="help.html" id="pass" target="_blank">HELP</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="content container text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <span class="tableHeading" id="blockedListHeading">Blocked Websites:</span>
+            </div>
+            <div class="col-md-8">
+                <table id="urlList" border="0" class="col-md-8">
+                    <tr>
+
+                        <th class="colHeading">Blocked Websites</th>
+                        <th class="colHeading">Blocked Until (HH.MM)</th>
+                        <th class="colHeading"># Access Tried</th>
+                        <th class="colHeading"></th>
+                        <th class="colHeading"></th>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <span class="tableHeading " id="prominentListHeading">Prominent List:</span>
+            </div>
+
+            <div class="col-md-8">
+                <table id="prominentList" border="0">
+                    <tr>
+
+                        <th class="colHeading">Websites</th>
+                        <th class="colHeading"></th>
+                        <th></th>
+                    </tr>
+
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<div class="spacer">
+    &nbsp;
+</div>
+<footer>
+    <span class="footerData">
+        Like the effort??Appreciate by giving it back to the society!!
+        <br> All donations(100%) will be forwarded to various charities.
+    </span>
+    <form class="payPal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="KVVD2P35962AC">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    <span class="copyright">&copy; 2018 Procrastination Guru</span>
+    <a href="mailto:procrastinationg@gmail.com" class="contact" target="_top">Ping us!</a>
+
+
+</footer>
+</div>
+
+
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>
